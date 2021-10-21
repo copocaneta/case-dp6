@@ -1,0 +1,11 @@
+{
+  "name": "teste-dp6-thiagobernardi",
+  "version": "1.0.0",
+  "description": "Teste realizado para a posicao de DE da DP6 por Thiago Bernardi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Bernardi",
+  "license": "ISC"
+}
