@@ -35,10 +35,16 @@ const btMenuentraEmContato = document.querySelector('.menu-lista-contato');
 const btMenuDownloadPdf = document.querySelector('.menu-lista-download');
 
 // criando eventListener para capturar o clique no menu "Entre em Contato""
-btMenuentraEmContato.addEventListener('click',  envioDeEvento('menu', 'entre_em_contato', 'link_externo'));
+btMenuentraEmContato.addEventListener('click',  () => {
+	console.log('clicou no entre em contato');
+	envioDeEvento('menu', 'entre_em_contato', 'link_externo')
+});
 
-// criando eventListener para capturar o clique no menu "Entre em Contato""
-btMenuDownloadPdf.addEventListener('click',  envioDeEvento('menu', 'download_pdf', 'download_pdf'));
+// criando eventListener para capturar o clique no menu "Download PDF""
+btMenuDownloadPdf.addEventListener('click', () => {
+	console.log('clicou no download PDF');
+	envioDeEvento('menu', 'download_pdf', 'download_pdf');
+});
 
 
 
